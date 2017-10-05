@@ -27,6 +27,5 @@ endif
 
 LOCAL_REQUIRED_MODULES := libfmradio.v4l2-fm brcm-uim-sysfs
 LOCAL_SHARED_LIBRARIES += liblog libnativehelper
-LOCAL_PROPRIETARY_MODULE := true
 
 include $(BUILD_SHARED_LIBRARY)
